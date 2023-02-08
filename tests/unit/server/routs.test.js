@@ -1,7 +1,7 @@
-import { jest, expect,describe, test } from "@jest/globals"
+import pkg  from "@jest/globals"
 
-describe("#Routs", () => {
-    test("my test", () => {
-        expect(true).toBeTruthy()
+pkg.describe("#Routs", () => {
+    pkg.test("my test", () => {
+        pkg.expect(true).toBeTruthy()
     })
 })
